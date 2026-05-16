@@ -5,7 +5,7 @@ input.onButtonPressed(Button.B, function () {
     Count += 1
 })
 let Heart = false
-let Count = 3567
+let Count = 4194
 basic.forever(function () {
     basic.showString("" + (Count))
     if (Heart) {
