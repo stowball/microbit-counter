@@ -1,11 +1,11 @@
 input.onButtonPressed(Button.A, function () {
-    Count += 10
-})
-input.onButtonPressed(Button.B, function () {
     Count += 1
 })
+input.onButtonPressed(Button.B, function () {
+    Count += 10
+})
 let Heart = false
-let Count = 4194
+let Count = 6423
 basic.forever(function () {
     basic.showString("" + (Count))
     if (Heart) {
